@@ -13,5 +13,6 @@ bundle install
 
 ```
 ruby modify_harmony.rb
+ruby modify_harmony.rb 5 && timidity output/altered.mid -Ow -o - | lame - -b 64 converted/altered.mp3
 ```
 
